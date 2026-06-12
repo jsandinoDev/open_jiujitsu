@@ -10,6 +10,8 @@ export interface Academy {
   phone?: string;
   image_url: string;
   tags: string[];
+  is_approved?: boolean;
+  created_at?: string;
 }
 
 export interface OpenMat {
