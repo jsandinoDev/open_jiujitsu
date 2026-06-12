@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#09090b"/>
+  <!-- Red left accent bar (matches site design) -->
+  <rect x="0" y="0" width="6" height="64" fill="#dc2626"/>
+  <!-- Kanji 柔 (ju = gentle/soft — the "jiu" in jiu-jitsu) -->
+  <text
+    x="36"
+    y="50"
+    font-family="'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif"
+    font-size="46"
+    font-weight="700"
+    fill="white"
+    text-anchor="middle"
+  >柔</text>
+</svg>
