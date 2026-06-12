@@ -141,7 +141,7 @@ export default function App() {
 
         <div className="relative max-w-7xl mx-auto px-6 w-full">
           <p className="text-xs font-bold uppercase tracking-[0.4em] text-brand mb-6">
-            Openmat CR — Costa Rica
+            Openmat CR — 
           </p>
           <h1 className="font-display font-semibold text-5xl md:text-8xl leading-none tracking-tighter text-balance uppercase mb-8">
             La Red de{' '}
@@ -398,13 +398,12 @@ export default function App() {
               Openmat CR
             </span>
           </div>
-          <p className="text-xs uppercase tracking-widest">
-            Desarrollado para el tatami nacional &bull; 2025
+          <p className="text-xs">
+            Desarrollado por{' '}
+            <a href="https://sandcor.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-zinc-300 hover:text-brand transition-colors">
+              Sandcor Solutions
+            </a>
           </p>
-          <div className="flex gap-6">
-            <a href="#" className="text-xs hover:text-zinc-300 transition-colors">Instagram</a>
-            <a href="#" className="text-xs hover:text-zinc-300 transition-colors">Contacto</a>
-          </div>
         </div>
       </footer>
     </div>
